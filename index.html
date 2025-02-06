@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="language" content="ko">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link media="all" type="text/css" rel="stylesheet" href="css/font.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/common.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/contents.css">
+    <!-- js -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <title> index </title>
+</head>
+
+<body>
+    <div class="topBanner">
+        <div class="topBanner-inner">
+            <p>
+                <img src="images/common/top_banner_icon.png" alt="Banner Icon">
+                오직 아이티셀러에서 가입하면 <b>최대 지원금 128만원!</b>
+            </p>
+            <button class="close-btn" onclick="closeBanner()"></button>
+        </div>
+    </div>
+    <header id="header" class="header Fixed">
+        <div class="header-fixd">
+            <div class="headerIn d-flex">
+                <h1><a href="index.html" class="logo" alt="아이티셀러 로고">아이티셀러</a></h1>
+                <nav class="gnb topmenu">
+                    <ul>
+                        <li id="num1" class="menu-var">
+                            <a href="internet.html" title="인터넷">인터넷<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="가전렌탈">가전렌탈<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="휴대폰">휴대폰<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="공지사항">공지사항<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="개통실안내">개통실안내<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="정책안내">정책안내<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="업무가이드">업무가이드<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="접수내역">접수내역<span></span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <div class="header-langs">
+                        <div class="dropbox dropbox1">
+                            <button class="dropbtn btn-drop1" title="하위메뉴 열기">마이페이지</button>
+                            <ul class="drop-content drop1-content">
+                                <li>
+                                    <a href="#" title="" onclick="_blank">접수내역</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="" target="_blank">회원정보수정</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="" target="_blank" class="bth_order">로그아웃</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- mobile -->
+                <nav class="m_open_btn">
+                    <button class="btn btn-xs pl-0">
+                        <i class="ri-menu-2-fill h2"></i>
+                    </button>
+                </nav>
+                <nav class="nav mobile">
+                    <button class="closeBtn"><i class="ri-close-line h3"></i></button>
+                    <div class="hide-pc">                        
+                        <h2 class="logo">
+                            <a href="/" class="logo-a"><i>아이티셀러</i></a>                                
+                        </h2>                            
+                        <div class="top_utilwrap">
+                            <ul class="utill">
+                                <li><a href="#" class="btn_login">로그인</a></li>
+                                <li><a href="#" class="bth_sign">회원가입</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="menu">
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="인터넷" class="submenu_icon">인터넷<span></span></a>
+                            <ul class="m_submenu">
+                                <li><a href="#">KT</a></li>
+                                <li><a href="#">LG</a></li>
+                                <li><a href="#">SK</a></li>
+                                <li><a href="#">SkyLife</a></li>
+                                <li><a href="#">LG HelloVision</a></li>
+                                <li><a href="#">SKB(알뜰)</a></li>
+                                <li><a href="#">딜라이브</a></li>
+                                <li><a href="#">HCN</a></li>
+                            </ul>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="가전렌탈">가전렌탈<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="휴대폰">휴대폰<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="공지사항">공지사항<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="개통실안내">개통실안내<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="정책안내">정책안내<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="업무가이드">업무가이드<span></span></a>
+                        </li>
+                        <li id="num1" class="menu-var">
+                            <a href="#" title="접수내역">접수내역<span></span></a>
+                        </li>
+                    </ul>
+                    <div class="dark"></div>
+                </nav>
+            <!-- mobile -->
+            </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="sec1">
+            <div class="sel_cont">
+                <div class="mainslider-container">
+                    <div class="mainslider">
+                        <div class="mainslide-cont">
+                            <div class="mainslide-img-wrap m_none">
+                                <img src="images/common/mainSlider01.png" alt="메인슬라이드 1">
+                            </div>
+                            <div class="mainslide-img-wrap pc_none">
+                                <img src="images/common/mainSlider01_m.png" alt="메인슬라이드 1">
+                            </div>
+                        </div>
+                        <div class="mainslide-cont">
+                            <div class="mainslide-img-wrap m_none">
+                                <img src="images/common/mainSlider01.png" alt="메인슬라이드 2">
+                            </div>
+                            <div class="mainslide-img-wrap pc_none">
+                                <img src="images/common/mainSlider01_m.png" alt="메인슬라이드 2">
+                            </div>
+                        </div>
+                        <div class="mainslide-cont">
+                            <div class="mainslide-img-wrap m_none">
+                                <img src="images/common/mainSlider01.png" alt="메인슬라이드 3">
+                            </div>
+                            <div class="mainslide-img-wrap pc_none">
+                                <img src="images/common/mainSlider01_m.png" alt="메인슬라이드 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-nav">
+                        <button id="main-prev">
+                            <img src="images/common/mainslider_prev.png" alt="이전 버튼">
+                        </button>
+                        <div class="count">
+                            <span id="main-current-slide" class="current-slide">01</span> / <span id="main-total-slides" class="total-slides">03</span>
+                        </div>
+                        <button id="main-next">
+                            <img src="images/common/mainslider_next.png" alt="다음 버튼">
+                        </button>
+                        <button id="main-play-pause" class="play-pause">
+                            <img src="images/common/mainslider_pause.png" alt="정지 버튼" id="mainPlayPauseIcon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec2-planRecommendation">
+            <div class="contInner">
+                <h2 class="contTit mb20">통신사별 요금제 추천</h2>
+                <ul class="planRecommendation-cont">
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/kt.png" alt="kt">
+                            </div>
+                            <p>KT</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/lg_u+.png" alt="lg_u+">
+                            </div>
+                            <p>LG</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/sk.png" alt="sk">
+                            </div>
+                            <p>SK</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/skylife.png" alt="skylife">
+                            </div>
+                            <p>Sky Life</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/lg_hellovision.png" alt="lg_hellovision">
+                            </div>
+                            <p>LG HelloVision</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/skbsaving.png" alt="SKB(알뜰)">
+                            </div>
+                            <p>SKB(알뜰)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/dlive.png" alt="dlive">
+                            </div>
+                            <p>딜라이브</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="planRecommendation-cont-img">
+                                <img src="images/common/hcn.png" alt="hcn">
+                            </div>
+                            <p>HCN</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec3-applicationStatus main-bg-gray">
+            <div class="contInner">
+                <h2 class="contTit mb20">실시간 신청현황</h2>
+                <div class="realTime-table">
+                    <div class="realTime-table__tit">
+                        <p>날짜</p>
+                        <p>신청 상품</p>
+                        <p>이름</p>
+                        <p>신청 현황</p>
+                    </div>
+                    <div class="swiper realTimeSwiper realTime-table__rolling">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p class="ng-binding">24.12.26 09:21</p>
+                                <p class="ng-binding">KT 100Mbps</p>
+                                <p class="ng-binding">아무개</p>
+                                <p class="status ng-binding">접수완료</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec4-faq-reviews">
+            <div class="contInner faq-reviews-inner d-flex">
+                <div class="sec4-faq">
+                    <h2 class="contTit mb20">자주 묻는 질문 TOP5</h2>
+                    <div class="faq-inner">
+                        <div class="faq-item off">
+                            <p class="question">
+                                <span class="label">가입 절차는 어떻게 되나요?</span>
+                                <i class="faq-icon"></i>
+                            </p>
+                            <div class="answer">
+                                <p>상담 -> 요금제 선택 -> 신청서 작성 -> 가입 완료</p>
+                                <p>[상담]은 오른쪽에 보이시는 '카톡', '셀프 가입', '전화 문의' 중 
+                                    편하신 방법으로 문의 주시면 됩니다!</p>
+                            </div>
+                        </div>
+                        <div class="faq-item off">
+                            <p class="question">
+                                <span class="label">가입 절차는 어떻게 되나요?</span>
+                                <i class="faq-icon"></i>
+                            </p>
+                            <div class="answer">
+                                <p>상담 -> 요금제 선택 -> 신청서 작성 -> 가입 완료</p>
+                                <p>[상담]은 오른쪽에 보이시는 '카톡', '셀프 가입', '전화 문의' 중 
+                                    편하신 방법으로 문의 주시면 됩니다!</p>
+                            </div>
+                        </div>
+                        <div class="faq-item off">
+                            <p class="question">
+                                <span class="label">가입 절차는 어떻게 되나요?</span>
+                                <i class="faq-icon"></i>
+                            </p>
+                            <div class="answer">
+                                <p>상담 -> 요금제 선택 -> 신청서 작성 -> 가입 완료</p>
+                                <p>[상담]은 오른쪽에 보이시는 '카톡', '셀프 가입', '전화 문의' 중 
+                                    편하신 방법으로 문의 주시면 됩니다!</p>
+                            </div>
+                        </div>
+                        <div class="faq-item off">
+                            <p class="question">
+                                <span class="label">가입 절차는 어떻게 되나요?</span>
+                                <i class="faq-icon"></i>
+                            </p>
+                            <div class="answer">
+                                <p>상담 -> 요금제 선택 -> 신청서 작성 -> 가입 완료</p>
+                                <p>[상담]은 오른쪽에 보이시는 '카톡', '셀프 가입', '전화 문의' 중 
+                                    편하신 방법으로 문의 주시면 됩니다!</p>
+                            </div>
+                        </div>
+                        <div class="faq-item off">
+                            <p class="question">
+                                <span class="label">가입 절차는 어떻게 되나요?</span>
+                                <i class="faq-icon"></i>
+                            </p>
+                            <div class="answer">
+                                <p>상담 -> 요금제 선택 -> 신청서 작성 -> 가입 완료</p>
+                                <p>[상담]은 오른쪽에 보이시는 '카톡', '셀프 가입', '전화 문의' 중 
+                                    편하신 방법으로 문의 주시면 됩니다!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec4-reviews">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="contTit mb20">사용 후기</h2>
+                        <a href="#" class="sec4-reviews-more">더보기+</a>
+                    </div>
+                    <div class="sec4-reviews-contentr">
+                        <div class="reviews-content">
+                            <div class="slider">
+                                <div class="slide">
+                                    <div class="reviewsname">
+                                        <img src="images/common/review_user.png" alt="User">
+                                        <span>아무개님</span>
+                                    </div>
+                                    <div class="reviewsTit">KT 인터넷 티비설치</div>
+                                    <p class="reviewsTxt">좋은제품 친절한 설명 빠른 설치, 감사드려요 렌탈 고민 하시는 분 들께 한번 견적 내보고 상담 받으면</p>
+                                    <div class="reviewsStar">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                    </div>
+                                    <div class="indicator">
+                                        <div class="view"><img src="images/common/view_icon.png" alt="Views"><span>1,440</span></div>
+                                        <div class="reply"><img src="images/common/reply_icon.png" alt="Replies"><span>0</span></div>
+                                        <div class="great"><img src="images/common/great_icon.png" alt="Likes"><span>0</span></div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="reviewsname">
+                                        <img src="images/common/review_user.png" alt="User">
+                                        <span>아무개님</span>
+                                    </div>
+                                    <div class="reviewsTit">KT 인터넷 티비설치</div>
+                                    <p class="reviewsTxt">좋은제품 친절한 설명 빠른 설치, 감사드려요 렌탈 고민 하시는 분 들께 한번 견적 내보고 상담 받으면</p>
+                                    <div class="reviewsStar">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                    </div>
+                                    <div class="indicator">
+                                        <div class="view"><img src="images/common/view_icon.png" alt="Views"><span>1,440</span></div>
+                                        <div class="reply"><img src="images/common/reply_icon.png" alt="Replies"><span>0</span></div>
+                                        <div class="great"><img src="images/common/great_icon.png" alt="Likes"><span>0</span></div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="reviewsname">
+                                        <img src="images/common/review_user.png" alt="User">
+                                        <span>아무개님</span>
+                                    </div>
+                                    <div class="reviewsTit">KT 인터넷 티비설치</div>
+                                    <p class="reviewsTxt">좋은제품 친절한 설명 빠른 설치, 감사드려요 렌탈 고민 하시는 분 들께 한번 견적 내보고 상담 받으면</p>
+                                    <div class="reviewsStar">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                        <img src="images/common/active_star.svg" alt="Star">
+                                    </div>
+                                    <div class="indicator">
+                                        <div class="view"><img src="images/common/view_icon.png" alt="Views"><span>1,440</span></div>
+                                        <div class="reply"><img src="images/common/reply_icon.png" alt="Replies"><span>0</span></div>
+                                        <div class="great"><img src="images/common/great_icon.png" alt="Likes"><span>0</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec5-benefits main-bg-gray">
+            <div class="contInner">
+                <h1 class="mb20">정당하게 받을수 있는 <span class="fc-mint">혜택</span>들,<br>
+                    모르고 계셨나요?</h1>
+                <div class="sec5-benefits-cont">
+                    <div class="benefits-cont d-flex">
+                        <div class="benefits-cont-info">
+                            <span>혜택 1</span>
+                            <p class="benefits-tit">가만히 있으면<br>지원금은 0원이에요</p>
+                            <p class="benefits-txt">현금조건 상상초월,<br>
+                                이통3사 역대급 지원혜택</p>
+                        </div>
+                        <div class="benefits-cont-info">
+                            <span>혜택 2</span>
+                            <p class="benefits-tit">넘치는 선택지에<br>
+                                이미 많은 시간을 낭비해요</p>
+                            <p class="benefits-txt">인터넷 하나만 해도<br>
+                                상품도 요금제도 다양한걸요.</p>
+                        </div>
+                        <div class="benefits-cont-info">
+                            <span>혜택 3</span>
+                            <p class="benefits-tit">믿을만 한 곳인지 걱정돼요.</p>
+                            <p class="benefits-txt">약속한 혜택은 언제쯤 받을 수 있을까요?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec6-solution">
+            <div class="contInner">
+                <div class="d-flex justify-content-between">
+                    <div class="img-box">
+                        <img src="images/common/sec6_img.svg" alt="접수완료">
+                    </div>
+                    <div class="txt-box">
+                        <div>
+                            <h1><span class="fc-mint">365일 24시간</span> 대응으로,<br> 21만 고객의 신뢰를 쌓았어요. </h1>
+                            <p>아이티셀러는 전화, 카카오톡 등 <br>고객이 원하는 채널로 빠르게 이용할 수 있어요.</p>
+                        </div>
+                        <ul class="contact-list">
+                            <li>
+                                <div class="icon-bx">
+                                    <img src="images/common/sec6-solution-icon1.png" alt="카카오톡 채널">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-bx">
+                                    <img src="images/common/sec6-solution-icon2.png" alt="고객센터">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footerInner">
+            <div class="">
+                <div class="foot-head d-flex">
+                    <a href="#">이용약관</a>
+                    <a href="#" class="ft-bold">개인정보처리방침</a>
+                </div>
+                <ul class="corp_area">
+                    <li>아이티셀러</li>
+                    <li>대표 전화 : 010-5959-7440</li>
+                    <li>개인정보관리책임 : 홍승현</li>
+                    <li class="copy">Copyright ⓒ 아이티셀러 All Rights Reserved.</li>
+                </ul>
+            </div>
+        </div>
+        <button class="kakao_btn active">
+            <img src="images/common/kakao_bt.png" alt="카카오상담 아이콘" aria-hidden="true">
+        </button>
+        <button class="totop active">
+            <img src="images/common/top_bt.png" alt="위로 이동 아이콘" aria-hidden="true">
+            <span class="hidden">위로 이동</span>
+        </button>
+    </footer>
+    <div id="bottom-fixed-bar" class="hidden">
+        <div class="bottom-bar">
+            <div class="content">
+                <span class="info">
+                    <i class="icon"><img src="images/common/support_icon.png"></img> 빠른가입상담 <b>1588-0000</b></i>
+                </span>
+                <div class="d-flex">
+                    <input type="text" placeholder="이름" class="input-name">
+                    <input type="text" placeholder="연락처를 알려주세요" class="input-phone">
+                    <button class="btn-submit">상담신청</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

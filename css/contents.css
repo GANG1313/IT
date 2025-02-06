@@ -1,0 +1,818 @@
+@charset "utf-8";
+
+
+section {
+    margin-bottom: 64px;
+}
+
+.contInner {
+	width: 1254px;
+	margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.contTit {
+    font-size: 25px;
+}
+
+.main-bg-gray {
+    background-color: #F9FAFC;
+    padding: 64px 0;
+}
+
+.mainslide-cont.slick-slide {
+    transition: transform 0.8s ease-in-out;
+}
+
+.mainslider-container {
+    width: 100%;
+    position: relative;
+}
+
+.mainslide-cont {
+    cursor: pointer;
+}
+
+.mainslider img {
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 0 8%;
+    width: 100%;
+    height: 418px;
+    top: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+
+.pc_none {
+    display: none;
+}
+
+.mainslide-cont {
+    width: 100%;
+    height: 95%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.mainslide-img-wrap {
+    width: 1254px;
+    height: 418px;
+    margin: 0 auto;
+}
+
+.mainslide-img-wrap img {
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.mainslider-container .custom-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mainslider-container .custom-nav .count .current-slide {
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.mainslider-container .total-slides {
+    font-size: 16px;
+}
+
+.mainslider-container .custom-nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(241, 241, 241, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.mainslider-container .custom-nav img:hover {
+    opacity: 1;
+}
+
+.sec2-planRecommendation .planRecommendation-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
+}
+
+.sec2-planRecommendation .planRecommendation-cont li {
+    width: calc(11.9% - 7.85px);
+}
+
+.sec2-planRecommendation .planRecommendation-cont li .planRecommendation-cont-img {
+    background-color: #F1F1F1;
+    height: 127px;
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.sec2-planRecommendation .planRecommendation-cont li p {
+    text-align: center;
+}
+
+.sec3-applicationStatus .realTime-table {
+    width: 100%;
+    margin: 10px 0 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    line-height: 1.3;
+    border: none;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #25B7D3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit p {
+    color: #fff;
+    padding: 21px 0;
+    font-weight: 600;
+}
+
+.sec3-applicationStatus .realTime-table .realTimeSwiper {
+    background-color: #fff;
+    border-bottom: 1px solid #F2F4F8;
+    width: 100%;
+    height: 337px;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F4F8;
+}
+
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p {
+    text-align: left;
+    padding: 21px 0;
+    color: #333;
+}
+
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li .status {
+    color: #fff;
+    background-color: #25B7D3;
+    border-radius: 19px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 0;
+    height: 38px;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit p:nth-child(1),
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p:nth-child(1) {
+    width: 200px;
+    padding-left: 35px;
+    text-align: center;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit p:nth-child(2),
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p:nth-child(2) {
+    width: 500px;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit p:nth-child(3),
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p:nth-child(3) {
+    width: 100px;
+    text-align: center;
+}
+
+.sec3-applicationStatus .realTime-table .realTime-table__tit p:nth-child(4),
+.sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p:nth-child(4) {
+    width: 95px;
+    text-align: center;
+    margin-right: 35px;
+}
+
+.sec4-faq-reviews .sec4-reviews-more {
+    font-size: 16px;
+    color: #A1A1A1;
+}
+
+.sec4-faq-reviews .faq-reviews-inner {
+    gap: 35px;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-inner {
+    border: 1px solid #EBEBEC;
+    border-radius: 10px;
+    padding: 21px 25px;
+    width: 454px;
+    min-width: 100%;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .faq-icon {
+    background: url(../images/common/faq_arrow.png) no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 9px;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item:last-child {
+    margin: 0;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .question .label {
+    font-size: 18px;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .question .label::before{
+    content: "Q";
+    color: #25B7D3;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item.on .question {
+    font-weight: 800;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .answer {
+    background: #fff;
+    border: 1px solid #25B7D3;
+    border-radius: 10px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, .1);
+    left: 16px;
+    overflow: hidden;
+    padding: 12px 16px;
+    position: absolute;
+    right: 16px;
+    top: 100%;
+    margin-top: 3px;
+    z-index: 100;
+    display: none;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item .answer p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-icon {
+    transition: transform 0.3s ease;
+}
+
+.sec4-faq-reviews .sec4-faq .faq-item.on .faq-icon {
+    transform: rotate(180deg);
+}
+
+.sec4-reviews-contentr .reviews-content .slick-slider .slick-track {
+    display: flex;
+    gap: 30px;
+}
+
+.sec4-reviews-contentr .reviews-content .slick-initialized .slick-slide {
+    background-color: #F9FAFC;
+    border-radius: 10px;
+    padding: 21px 25px;
+}
+
+.sec4-reviews-contentr .reviews-content .reviewsname {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 17px;
+}
+
+.sec4-faq-reviews .sec4-reviews .sec4-reviews-contentr .reviews-content .reviewsTit {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sec4-faq-reviews .sec4-reviews .sec4-reviews-contentr .reviews-content .reviewsTxt {
+    font-size: 15px;
+    color: #888888;
+    line-height: 1.3em;
+    margin: 22px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.sec4-faq-reviews .sec4-reviews .sec4-reviews-contentr .reviews-content .reviewsStar {
+    gap: 5px;
+    margin-bottom: 22px;
+}
+
+.sec4-reviews {
+    min-width: 765px;
+    width: 100%;
+}
+
+.reviewsStar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 26px;
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+}
+
+.indicator>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 25px;
+}
+
+.indicator span {
+    font-size: 13px;
+    color: #BEBEBE;
+}
+
+.reviews-content .slick-prev, 
+.reviews-content .slick-next {
+    display: block;
+    width: 37px !important;
+    height: 37px !important;
+    box-shadow: 1px 1px 8px 0px rgba(99, 99, 99, 0.2);
+    border-radius: 50%;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.reviews-content .slick-prev {
+    left: 0px;
+}
+
+.reviews-content .slick-next {
+    right: 0;
+}
+
+.reviews-content .slick-prev::before {
+    background: url(../images/common/icon-sw_arrow-left.png) no-repeat center;
+}
+
+.reviews-content .slick-next::before {
+    background: url(../images/common/icon-sw_arrow-right.png) no-repeat center;
+}
+
+.reviews-content .slick-prev::before, 
+.reviews-content .slick-next::before {
+    color: transparent !important;
+    opacity: 0.5;
+}
+
+.reviews-content .slick-prev:hover::before, 
+.reviews-content .slick-next:hover::before {
+    opacity: 1;
+} 
+
+.sec5-benefits h1 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.3em;
+}
+
+.sec5-benefits .benefits-cont {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info {
+    background-color: #fff;
+    border-radius: 39px;
+    padding: 40px 30px;
+    box-shadow: 1px 1px 8px 0px rgba(177, 177, 177, 0.2);
+    position: relative;
+    width: 33.33333%;
+    height: 100%;
+    min-height: 394px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info:nth-child(1)::after {
+    content: "";
+    background: url(../images/common/benefits_img01.svg) no-repeat;
+    width: 182px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    right: 40px;
+    bottom: 13px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info:nth-child(2)::after {
+    content: "";
+    background: url(../images/common/benefits_img02.svg) no-repeat;
+    width: 188px;
+    height: 172px;
+    display: block;
+    position: absolute;
+    right: -10px;
+    bottom: 13px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info:nth-child(3)::after {
+    content: "";
+    background: url(../images/common/benefits_img03.svg) no-repeat;
+    width: 188px;
+    height: 172px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 13px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info span {
+    background-color: #25B7D3;
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 23px;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info .benefits-tit {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px 0 16px;
+    line-height: 1.2em;
+}
+
+.sec5-benefits .benefits-cont .benefits-cont-info .benefits-txt {
+    font-size: 18px;
+    color: #888888;
+    line-height: 1.2em;
+}
+
+.sec6-solution {
+    margin-bottom:0 !important;
+}
+
+.sec6-solution .txt-box h1 {
+    font-size: 45px;
+    line-height: 1.3em;
+    margin-bottom: 46px;
+}
+
+.sec6-solution .txt-box p {
+    font-size: 22px;
+    color: #888888;
+    line-height: 1.2em;
+}
+
+.sec6-solution .txt-box .contact-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 133px;
+}
+
+@media (max-width: 1254px) {
+    .contInner {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .sec4-faq-reviews .faq-reviews-inner {
+        gap: 17px;
+    }
+
+    .sec4-reviews {
+        min-width: 50%;
+        width: 100%;
+    }
+
+    .sec6-solution .contInner>div {
+        gap: 20px;
+    }
+
+    .sec6-solution .txt-box .contact-list {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 987px) {
+    .sec4-faq-reviews .faq-reviews-inner {
+        display: block;
+    }
+
+    .sec4-faq {
+        margin-bottom: 50px;
+    }
+
+    .sec4-faq-reviews .sec4-faq .faq-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .sec2-planRecommendation .planRecommendation-cont {
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont li {
+        width: calc(25% - 10px);
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont li .planRecommendation-cont-img {
+        border-radius: 5px;
+        height: 98px;
+        margin-bottom: 10px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(1)::after {
+        right: 22px;
+        bottom: -17px;
+        background-size: 100%;
+        width: 50%;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(2)::after {
+        right: -24px;
+        bottom: -24px;
+        background-size: 100%;
+        width: 50%;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(3)::after {
+        right: 13px;
+        bottom: -25px;
+        background-size: 100%;
+        width: 48%;
+    }
+
+    .sec6-solution .contInner>div {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .sec6-solution .img-box {
+        order: 2;
+    }
+
+    .sec6-solution .txt-box h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .sec6-solution .txt-box p {
+        text-align: center;
+    }
+
+    .sec6-solution .txt-box .contact-list {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    .contTit {
+        font-size: 20px;
+    }
+
+    .pc_none {
+        display: block;
+    }
+
+    .m_none {
+        display: none;
+    }
+
+    .mainslide-img-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .mainslider img {
+        height: 100%;
+    }
+
+    .mainslider-container .custom-nav button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .mainslider-container .custom-nav .count .current-slide {
+        font-size: 16px;
+    }
+
+    .mainslider-container .total-slides {
+        font-size: 14px;
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont li .planRecommendation-cont-img {
+        margin-bottom: 5px;
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont li p{
+        font-size: 0.9rem;
+    }
+
+    .sec4-faq-reviews .sec4-faq .faq-item .question .label {
+        font-size: 16px;
+    }
+
+    .sec5-benefits h1 {
+        font-size: 30px;
+    }
+
+    .sec5-benefits .benefits-cont {
+        gap: 15px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info {
+        padding: 25px 30px;
+        height: 100%;
+        min-height: 320px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info span {
+        font-size: 18px;
+        padding: 7px 15px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info .benefits-tit {
+        font-size: 20px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info .benefits-txt {
+        font-size: 16px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(1)::after {
+        bottom: -50px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(2)::after {
+        bottom: -60px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(3)::after {
+        bottom: -66px;
+    }
+
+    .sec6-solution .txt-box h1 {
+        font-size: 30px;
+    }
+
+    .sec6-solution .txt-box p {
+        font-size: 18px;
+    }
+
+    .sec6-solution .img-box>img {
+        width: 100%;
+    }
+
+    .sec6-solution .icon-bx>img {
+        width: 80%;
+    }
+
+    .sec6-solution .txt-box .contact-list {
+        gap: 0;
+    }
+}
+
+@media (max-width: 636px) {
+    .sec5-benefits .benefits-cont {
+        flex-wrap: wrap;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(1)::after,
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(2)::after,
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(3)::after {
+        bottom: 0;
+        width: 30%;
+    }
+}
+
+@media (max-width: 655px) {
+    .sec3-applicationStatus .realTime-table .realTime-table__tit {
+        display: none;
+    }
+
+    .sec3-applicationStatus .realTime-table .realTimeSwiper {
+        height: 530px;
+    }
+
+    .sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li {
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    .sec3-applicationStatus .realTime-table .realTime-table__tit p, 
+    .sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p {
+        text-align: left !important;
+        padding: 3px 0 !important;
+        font-size: 13px;
+        width: calc(50% - 10px);
+    }
+
+    .sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li .status {
+        padding: 10px 15px;
+        font-size: 13px;
+        height: 34px;
+        line-height: 34px;
+    }
+    .sec3-applicationStatus .realTime-table .realTime-table__tit p:nth-child(4), .sec3-applicationStatus .realTime-table .realTimeSwiper .swiper-wrapper li p:nth-child(4) {
+        margin-right: 0;
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 457px) {
+    .mainslider-container .custom-nav {
+        bottom: 19px;
+        gap: 5px;
+    }
+
+    .mainslider-container .custom-nav button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mainslider-container .custom-nav .count .current-slide {
+        font-size: 14px;
+    }
+
+    .mainslider-container .total-slides {
+        font-size: 12px;
+    }
+
+    .sec2-planRecommendation .planRecommendation-cont li {
+        width: calc(50% - 10px);
+    }
+
+    .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(1)::after, .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(2)::after, .sec5-benefits .benefits-cont .benefits-cont-info:nth-child(3)::after {
+        bottom: -70px;
+    }
+}
+
+
+
